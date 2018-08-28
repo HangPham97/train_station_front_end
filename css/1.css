@@ -1,0 +1,175 @@
+*{margin:0;padding:0; }
+/* header */
+.text-center>h1 {
+	color: #a41e2d;
+}
+.text-center p {
+	color: #404041;
+}
+nav{
+	background-image: url("img/brg.jpg");
+	background-repeat: repeat-x;
+}
+nav.navbar.navbar-default {
+	border: none;
+	margin-top: 12px;
+}
+
+.a::after {
+	content: url('img/nav1.jpg');
+
+}
+.b::after {
+	content: url('img/nav2.jpg');
+
+}
+.c::after {
+	content: url('img/nav3.jpg');
+
+} 
+.d::after {
+	content: url('img/nav3.jpg');
+
+} 
+.e::after {
+	content: url('img/nav6.jpg');
+	margin-left: 33px;
+} 
+.b{
+	background-image: url("img/nav5.jpg");
+	background-repeat: repeat-x;
+
+}
+.c{
+	background-image: url("img/nav4.jpg");
+	background-repeat: repeat-x;
+
+}
+.be{
+	float: left;
+    display: -webkit-box;
+}
+.d{
+	background-image: url("img/nav4.jpg");
+	background-repeat: repeat-x;
+
+}
+.e{
+	background-image: url("img/nav4.jpg");
+	background-repeat: repeat-x;
+
+}
+.anh{
+	background-image: url("img/bg.jpg");
+	background-repeat: repeat-x;
+	margin-bottom: 15px;
+	margin-top: -22px;
+
+} 
+.anh p {
+	float: left;
+    margin-right: 8px;
+    color: #58595b;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+
+.navbar-nav > li > a {
+	padding-top: 24px;
+	padding-bottom: 0px;
+}
+.chinh {
+	margin-top: 11px;
+}
+
+
+li.b {
+	margin-left: -15px;
+}
+a.level-top {
+
+	margin-top: -12px;
+}
+.b a.level-top {
+	margin-right: -15px;
+}
+.e a.level-top {
+	margin-right: -16px;
+}
+.mau{
+	color:#d21c24;
+}
+i {
+	width: 40px;
+	height: 24px;
+	float: left;
+	    color: white;
+}
+i.fa.fa-phone {
+	background: #dd761e;
+	text-align: center;
+	line-height: 25px;
+	
+	margin-right: 39px;
+}
+.do{
+	background: #d21c23;
+	text-align: center;
+	line-height: 25px;
+	margin-right: 11px;
+}
+.chinh a {
+    color: #58595b;
+  
+}
+a{
+	  text-decoration: none;
+}
+.boder {
+   border-right: 1px solid #b1b1b1; 
+   margin-bottom: 7px;
+}
+.color_white span {
+    font-size: 15px;
+    color: white;
+}
+    font-size: 15px;
+}
+.content_bootton a {
+    color: white;
+}
+a:hover {
+    color:blue;
+    text-decoration: none;
+}
+.level-top{
+ transition: 0.4s ease;
+}
+.level-top:hover {
+   border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
+}
+
+/* section */
+.color_do {
+    text-align: center;
+    background: #d21c23;
+    margin-top: -1px;
+    padding-bottom: 10px;
+}
+.color_den {
+    text-align: center;
+    background:#221f1f;
+    margin-top: -1px;
+    padding-bottom: 10px;
+}
+.content_bootton {
+    font-size: 16px;
+    color: white;
+    padding-top: 7px;
+}
+.content_bootton {
+    height: 128px;
+}

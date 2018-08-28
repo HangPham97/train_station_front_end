@@ -1,0 +1,38 @@
+#big {
+	padding: 10px;
+	border-bottom: 1px solid gray;
+	text-align: center;
+}
+.text {
+	width: 93%;
+	margin-left: 10px;
+}
+label {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#check {
+	width: 20px;
+	height: 20px;
+	margin-left: 15px;
+	float: left;
+}
+#content_6 .fa {
+    position: static;
+    padding: 5px;
+    width: 1.5em;
+    height: 20px;
+    color: white;
+    margin-right: 0;
+    background-color: #28292e;
+}
+@media (max-width: 992px){
+	#note {
+		text-align: center;
+	}
+	#content_1 #sign-up-text{
+		margin-top: 10px;
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+}

@@ -1,0 +1,85 @@
+/*
+* @Author: ngoc trung
+* @Date:   2017-09-28 22:45:11
+* @Last Modified by:   ngoc trung
+* @Last Modified time: 2017-09-29 15:55:32
+*/
+.content-about{
+	width: 80%;
+	margin: 0 auto;
+	padding-top:50px
+}
+.our-team{
+	width: 80%;
+	margin: 0 auto;
+	background: #bfbfbf;
+	display: table;
+	clear:both;
+	padding-bottom: 50px
+}
+.info-about{
+	width: 80%;
+	margin: 0 auto;
+	display: table;
+	clear:both;
+	padding-bottom: 50px;
+	padding-top:50px;
+}
+.carousel-control.left{
+	background-image: none;
+}
+.carousel-control.right{
+	background-image: none;
+}
+.fa{
+	color: #3d3e44;
+}
+.fa-chevron-circle-up:before{
+	    font-size: 50px;
+}
+@media (min-width: 1092px){
+	#about-us{
+		font-size:50px;
+	}
+}
+@media (max-width: 1091px){
+	#about-us{
+		font-size:40px;
+	}
+
+}
+@media (max-width: 914px){
+	#about-us{
+		font-size:35px;
+	}
+}
+@media (max-width: 826px){
+	#about-us{
+		font-size:30px;
+	}
+
+}
+@media (max-width: 739px){
+	.banner{
+		display: none;
+	}
+}
+#shank {
+	margin: 0 auto;
+}
+#graph{
+	margin: 0 auto;
+}
+ #ace{
+	margin: 0 auto;
+}
+@media (max-width: 767px){
+	#graph{
+		width: 70%;
+	}
+ 	#ace{
+		width: 70%;
+	}
+}
+
+	

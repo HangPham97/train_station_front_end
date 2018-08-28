@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Book Tickets</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css">
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="tickets.css">
+</head>
+<body>
+	<header  id="head">
+		<div class="col-md-1 col-xs-1">
+			
+		</div>
+		<div class="col-md-9 col-xs-9">
+			<div class="col-md-1"></div>
+			<div id="train_logo" class="col-md-6 col-xs-6 col-sm-6" >
+				<img src="img/train.png" alt="train">
+
+				<span><b style="color: white">BOOK</b>YOUR<b style="color: white">TRAIN</b></span>
+			</div>
+			<div id="sign-log">
+				<span> <a href=""> Sign up </a> </span>
+				<span> <a href="">Log in </a> </span>
+			</div>
+			<div class="col-md-1 col-xs-1"></div>
+		</div>
+		<div class="col-md-1 col-xs-1"></div>
+	</header>
+	
+	<nav class="navbar navbar-default" role="navigation" >
+		<div class="col-md-1 col-xs-1 col-sm-1"></div>
+		<div class="col-md-9 col-xs-10 col-sm-10">
+			<div class="col-md-1"></div>
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+				
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse navbar-ex1-collapse">
+							<ul class="nav navbar-nav">
+								<li><a href="home_v1.html">Home</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li class="dropdown">
+									<a href="" class="dropdown-toggle dropdown" data-toggle="dropdown">Pages<b class="caret" style="float: right;margin-top: 15px;"></b></a>
+									<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu" id="list-gallery">
+										<li><a href="#">Home</a></li>
+										<li class="dropdown dropdown-submenu"><a href="#list" tabindex="-1" class="dropdown-toggle dropdown" data-toggle="dropdown">Blog</i></a></li>
+										<li class="dropdown dropdown-submenu"><a href="#list" tabindex="-1" class="dropdown-toggle dropdown" data-toggle="dropdown"><span>Gallery</span><span class="glyphicon glyphicon-triangle-right" style="float: right; padding-top: 10px;"></span></a>
+											<ul class="submenu-2 dropdown-menu" id="list-blog">
+												<li><a href="#">2 Cols</a></li>
+												<li><a href="#">3 Cols</a></li>
+												<li><a href="#">4 Cols</a></li>
+											</ul>
+										</li>
+										<li><a href='about.html'>About US</a></li>
+										<li><a href="#">Contact</a></li>
+										<li><a href="search_ticket.html">Search Tickets</a></li>
+										<li><a href="#">Use Settings</a></li>
+										<li><a href="#">Shortcodes</a></li>
+										<li><a href="404.html">404 Page</a></li>
+									</ul>
+								</li>
+								<li><a href="about.html">About</a></li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+							
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">USD<b class="caret" style="float: right;margin-top: 15px;"></b></b></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Action</a></li>
+										<li><a href="#">Another action</a></li>
+										<li><a href="#">Something else here</a></li>
+										<li><a href="#">Separated link</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">ENG<b class="caret" style="float: right;margin-top: 15px;"></b></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Action</a></li>
+										<li><a href="#">Another action</a></li>
+										<li><a href="#">Something else here</a></li>
+										<li><a href="#">Separated link</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+	<div id="content_1" class="container-fluid">
+		<div class="col-md-2 col-xs-2"></div>
+		<div class="col-md-8 col-xs-8" style="padding: 0;">
+			<div  class="fill_form col-md-12 col-xs-12 col-sm-12">
+				<form id="inform_form" action="">
+					<div class="col-md-6">
+						<label for="">Travel Routes</label>
+						<input type="text" name="" placeholder="From" class="from routes">
+						<i class="fas fa-sync-alt"></i>
+						<input type="text" name="" placeholder="To" class="to routes">
+					</div>
+					<div class="col-md-6">
+						<div class="col-md-6">
+							<label>Travelling Date</label>
+							<input class="travel_date" type="text" id="datepicker" placeholder="MM/DD/YY">
+							<input class="travel_date" type="" name="" placeholder="ONE WAY">
+						</div>
+						<div class="col-md-6">
+							<label for="">Travelling Persons</label>
+							<select>
+								<option>1 Adult</option>
+								<option>2 Adults</option>
+								<option>3 Adults</option>
+							</select>
+							<select>
+								<option>0 Kid</option>
+								<option>1 Kid</option>
+								<option>2 Kids</option>
+							</select>
+
+							<button id="search_button">SEARCH TICKETS</button>
+								</div>
+							</div>
+				</form>
+			</div>
+		</div>
+		<div class="col-md-1 col-xs-1"></div>
+	</div>
+	<div id="content_2">
+		<ol class="track-progress" data-steps="4">
+			  <li class="long done">
+			  	<div class="col-md-5">	</div>
+			  	
+			    <span style="padding-right: 30px;">
+			    	<span class="number"> 1 </span>
+					TICKETS
+			    </span>
+			  </li><!-- 
+			   --><li class="short">
+			   
+			    <span style="padding-right: 30px;">
+			    		<span class="number"> 2 </span>
+						PASSENGERS
+			    </span>
+			  </li><!-- 
+			   --><li class="short">
+			   	
+			    <span style="padding-right: 30px;">
+			    		<span class="number"> 3 </span>
+						PAYMENT
+			    </span>
+			  </li><!-- 
+			   --><li class="long">
+		   		
+		  		<span style="padding-right: 50%">
+		  			<span class="number"> 4 </span>
+					VALIDATION
+		  		</span>
+			  </li>
+		</ol>
+		<div id="ticket" class="container-fluid ticket-content">
+			<div class="col-md-2 col-xs-3 col-sm-0">
+			</div>
+			<div class="col-md-2 col-xs-6 col-sm-6">
+				<div id="content_div">
+					<div class="md-2-title">Filter by</div>
+					<div id="size-2nd" >
+						<h5>Couch Type</h5>
+						<p><i class="fa fa-toggle-off" aria-hidden="true"></i><span > Third class sleeping </span></p>
+						<p><i class="fa fa-toggle-off" aria-hidden="true"></i> <span >Second class sleeping</span></p>
+						<p><i class="fa fa-toggle-off" aria-hidden="true"></i> <span >First class sleeping</span></p>
+						<p><i class="fa fa-toggle-off" aria-hidden="true"></i><span >Comfortable</span></p>
+						<p><i class="fa fa-toggle-off" aria-hidden="true"></i><span >Third class non revered</span></p>
+						<p><i class="fa fa-toggle-off" aria-hidden="true"></i><span >Sedentary carriage</span></p>
+						<p><i class="fa fa-toggle-on" aria-hidden="true"></i><span>All</span></p>
+						<h5>Departure / Arrive time</h5>
+						<input id="slider" type="text"/><br/>
+					</div>
+				</div>
+				<div id="recent-ticket">
+
+					<h3>Recent Tickets</h3>
+					<div class="recent-ticket">
+						<div class="div_1">
+							<span class="text text_1">New York</span>
+							<span class="text text_2">Los Angeles</span><br>
+							<span class="text_sub text_1">Penn Station, NY</span>
+							<span class="text_sub text_2">Union Station, CA</span>
+						</div>
+						<div class="div_2">
+								<span class="text text_1" style="line-height: 40px"><i class="fa fa-wifi"></i><i class="fa fa-moon"></i><i class="fa fa-coffee"></i></span>
+								<span class="text text_2">From <span style="font-size: 25px; color: red;"> $238 </span></span>
+						</div>
+					</div>
+					<div class="recent-ticket">
+						<div class="div_1">
+							<span class="text text_1">New York</span>
+							<span class="text text_2">Los Angeles</span><br>
+							<span class="text_sub text_1">Penn Station, NY</span>
+							<span class="text_sub text_2">Union Station, CA</span>
+						</div>
+						<div class="div_2">
+								<span class="text text_1" style="line-height: 40px"><i class="fa fa-wifi"></i><i class="fa fa-moon"></i><i class="fa fa-coffee"></i></span>
+								<span class="text text_2">From <span style="font-size: 25px; color: red;"> $238 </span></span>
+						</div>
+					</div>
+					<div class="recent-ticket">
+						<div class="div_1">
+							<span class="text text_1">New York</span>
+							<span class="text text_2">Los Angeles</span><br>
+							<span class="text_sub text_1">Penn Station, NY</span>
+							<span class="text_sub text_2">Union Station, CA</span>
+						</div>
+						<div class="div_2">
+								<span class="text text_1" style="line-height: 40px"><i class="fa fa-wifi"></i><i class="fa fa-moon"></i><i class="fa fa-coffee"></i></span>
+								<span class="text text_2">From <span style="font-size: 25px; color: red;"> $238 </span></span>
+						</div>
+					</div>
+
+				</div>
+
+				<div id="recent-post">
+					<h3>Recent Posts</h3>
+					<div class="recent">
+						<div class="recent_img overlay">
+							<div class="image"><img src="img/img.jpg"></div>
+							<div class="icon"><span></span><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+						</div>
+						<div class="recent_text">
+							<p style="color: gray">Lorem ipsum dolor sit amet, consectetur.</p>
+							<p class="recent-time">5 minutes ago</p>
+						</div>
+					</div>
+					<div class="recent">
+						<div class="recent_img  overlay">
+							<img src="img/img.jpg">
+						</div>
+						<div class="recent_text">
+							<p style="color: gray">Lorem ipsum dolor sit amet, consectetur.</p>
+							<p class="recent-time">5 minutes ago</p>
+						</div>
+					</div>
+					<div class="recent">
+						<div class="recent_img  overlay">
+							<img src="img/img.jpg">
+						</div>
+						<div class="recent_text">
+							<p style="color: gray">Lorem ipsum dolor sit amet, consectetur.</p>
+							<p class="recent-time">5 minutes ago</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-7 col-xs-12 col-sm-12">
+				<div id="title">
+					<span class="col-md-6 col-sm-6 col-xs-6"><b>10 of 12 founds</b></span>
+					<select name="" id="sort" class="col-md-4 col-xs-4 col-sm-4">
+						<option value="">Sort by time</option>
+						<option value="">Sort by name</option>
+						<option value="">Sort by distance</option>
+					</select>
+					<select name="" id="show" class="col-md-4 col-sm-4 col-xs-4 col-sm-4">
+						<option value="" >Show 5 tickets a page</option>
+						<option value="">Show 10 tickets a page</option>
+					</select>
+				</div>
+				<div id="ticket-detail">
+					<div class="col-md-3 col-xs-3 col-sm-3 first">
+						<div class="train-name">
+							<img src="img/train_name.png" alt="">
+						</div>
+						<div class="name"><p class="numb">0484A</p><p class="way">North Express</p></div>
+					</div>
+					<div class="col-md-6 col-xs-6 col-sm-6">
+						<div class="col-md-5 col-xs-5 col-ms-5">
+							<div class="time-detail">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+							<div class="time-detail-2">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-xs-2 col-sm-2">
+							<div class="time-detail" style="padding-top: 40px; color: gray;">
+								<p>07:25</p>
+								<img src="img/arrow-left.png" alt="">
+							</div>
+							<div class="time-detail-2" style="padding-top: 40px; color: gray;">
+								<p>11:30</p>
+								<img src="img/arrow-right.png" alt="">
+							</div>
+						</div>
+						<div class="col-md-5 col-xs-5 col-sm-5">
+							<div class="time-detail">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+							<div class="time-detail-2">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-3 col-sm-3 last">
+						<div  class="price">
+							<p><span style="font-size: 23px; color: red;">$38</span><span style="color: gray; font-size: 13px">/person</span></p>
+							<span class="text text_1" style="line-height: 40px"><i class="fa fa-wifi"></i><i class="fa fa-moon"></i><i class="fa fa-coffee"></i></span>
+						</div>
+						<div class="buy">
+							<button>Buy Now</button>
+						</div>
+					</div>
+				</div>
+				<div id="ticket-detail">
+					<div class="col-md-3 col-xs-3 col-sm-3 first">
+						<div class="train-name">
+							<img src="img/train_name.png" alt="">
+						</div>
+						<div class="name"><p class="numb">0484A</p><p class="way">North Express</p></div>
+					</div>
+					<div class="col-md-6 col-xs-6 col-sm-6">
+						<div class="col-md-5 col-xs-5 col-ms-5">
+							<div class="time-detail">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+							<div class="time-detail-2">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-xs-2 col-sm-2">
+							<div class="time-detail" style="padding-top: 40px; color: gray;">
+								<p>07:25</p>
+								<img src="img/arrow-left.png" alt="">
+							</div>
+							<div class="time-detail-2" style="padding-top: 40px; color: gray;">
+								<p>11:30</p>
+								<img src="img/arrow-right.png" alt="">
+							</div>
+						</div>
+						<div class="col-md-5 col-xs-5 col-sm-5">
+							<div class="time-detail">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+							<div class="time-detail-2">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-3 col-sm-3 last">
+						<div  class="price">
+							<p><span style="font-size: 23px; color: red;">$38</span><span style="color: gray; font-size: 13px">/person</span></p>
+							<span class="text text_1" style="line-height: 40px"><i class="fa fa-wifi"></i><i class="fa fa-moon"></i><i class="fa fa-coffee"></i></span>
+						</div>
+						<div class="buy">
+							<button>Buy Now</button>
+						</div>
+					</div>
+				</div>
+				<div id="ticket-detail">
+					<div class="col-md-3 col-xs-3 col-sm-3 first">
+						<div class="train-name">
+							<img src="img/train_name.png" alt="">
+						</div>
+						<div class="name"><p class="numb">0484A</p><p class="way">North Express</p></div>
+					</div>
+					<div class="col-md-6 col-xs-6 col-sm-6">
+						<div class="col-md-5 col-xs-5 col-ms-5">
+							<div class="time-detail">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+							<div class="time-detail-2">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-xs-2 col-sm-2">
+							<div class="time-detail" style="padding-top: 40px; color: gray;">
+								<p>07:25</p>
+								<img src="img/arrow-left.png" alt="">
+							</div>
+							<div class="time-detail-2" style="padding-top: 40px; color: gray;">
+								<p>11:30</p>
+								<img src="img/arrow-right.png" alt="">
+							</div>
+						</div>
+						<div class="col-md-5 col-xs-5 col-sm-5">
+							<div class="time-detail">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+							<div class="time-detail-2">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-3 col-sm-3 last">
+						<div  class="price">
+							<p><span style="font-size: 23px; color: red;">$38</span><span style="color: gray; font-size: 13px">/person</span></p>
+							<span class="text text_1" style="line-height: 40px"><i class="fa fa-wifi"></i><i class="fa fa-moon"></i><i class="fa fa-coffee"></i></span>
+						</div>
+						<div class="buy">
+							<button>Buy Now</button>
+						</div>
+					</div>
+				</div>
+				<div id="ticket-detail">
+					<div class="col-md-3 col-xs-3 col-sm-3 first">
+						<div class="train-name">
+							<img src="img/train_name.png" alt="">
+						</div>
+						<div class="name"><p class="numb">0484A</p><p class="way">North Express</p></div>
+					</div>
+					<div class="col-md-6 col-xs-6 col-sm-6">
+						<div class="col-md-5 col-xs-5 col-ms-5">
+							<div class="time-detail">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+							<div class="time-detail-2">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-xs-2 col-sm-2">
+							<div class="time-detail" style="padding-top: 40px; color: gray;">
+								<p>07:25</p>
+								<img src="img/arrow-left.png" alt="">
+							</div>
+							<div class="time-detail-2" style="padding-top: 40px; color: gray;">
+								<p>11:30</p>
+								<img src="img/arrow-right.png" alt="">
+							</div>
+						</div>
+						<div class="col-md-5 col-xs-5 col-sm-5">
+							<div class="time-detail">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+							<div class="time-detail-2">
+								<p class="time">8:30p</p>
+								<p class="date">Feb 14 SUN</p>
+								<p class="departure">New York</p>
+								<p class="station">Penn Station, NY</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-3 col-sm-3 last">
+						<div  class="price">
+							<p><span style="font-size: 23px; color: red;">$38</span><span style="color: gray; font-size: 13px">/person</span></p>
+							<span class="text text_1" style="line-height: 40px"><i class="fa fa-wifi"></i><i class="fa fa-moon"></i><i class="fa fa-coffee"></i></span>
+						</div>
+						<div class="buy">
+							<button>Buy Now</button>
+						</div>
+					</div>
+				</div>
+				<div class="page">
+					<div class="select">
+						<a href="">1</a>
+					</div>
+					<div>
+						<a href="">2</a>
+					</div>
+					<div>
+						<a href="">3</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="content_6" class="container-fluid">
+		<div class="container_6 container">
+			<div class="part col-md-3 col-sm-5 col-xs-10" >
+				<div>
+					<h4>Menu</h4>
+					<p><a>Press Center</a></p>
+					<p><a>Travel News</a></p>
+					<p><a>Privacy Policy</a></p>
+					<p><a>Best Price Guarantee</a></p>
+					<p><a>About Us</a></p>
+					<p><a>Contacts</a></p>
+				</div>
+			</div>
+			<div class="part col-md-3 col-sm-5 col-xs-10" >
+				<div>
+					<h4>Contacts Us</h4>
+					<i class="fa fa-phone"></i><span style="font-size: 18px;" >+444 5533 886</span><br><br>
+					<i class="fa fa-skype"></i><span >book.your.train</span><br><br>
+					<i class="fa fa-envelope"></i><span>mail@bookyourtrain.com</span><br><br>
+					<i class="fa fa-map-marker" aria-hidden="true"></i><span>5138 Little Shadow Gardens,<br>&emsp;&emsp;Del Monte, Alaska,<br>&emsp;&emsp;99631-4129, US</span><br><br>
+					
+				</div>
+			</div>
+			<div class="part col-md-3 col-sm-5 col-xs-10" >
+				<div>
+					<h4>Blog Post</h4>
+					<div class="blog">
+						<div class="blog_img">
+							<img src="img/foot1.jpg">
+						</div>
+						<div class="blog_text">
+							<p style="color: gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div class="blog">
+						<div class="blog_img">
+							<img src="img/foot2.jpg">
+						</div>
+						<div class="blog_text">
+							<p style="color: gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="part col-md-3 col-sm-5 col-xs-10" >
+				<div id="subscrible">
+					<h4>Subscrible</h4>
+					<p>Be aware of</p>
+					<input type="text" placeholder="your e-mail"> <button style="background-color: #28292e; border:1px solid gray; color: gray; height: 30px; border-radius: 5px;width: 20%;">Send</button>
+					<h4>Follow Us</h4>
+					<i class="fa fa-linkedin-in"></i><i class="fa fa-facebook-f"></i><i class="fa fa-twitter"></i></i><i class="fa fa-google-plus-g"></i><i class="fa fa-youtube"></i>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div style="float: right;"><i class="fa fa-copyright"></i><span style="font-weight: 600">2015 BESTWEBSOFT</span></div>
+		<div style="float: :left;">
+			<img src="img/train.png" alt="train">
+
+			<span><b style="color: white">BOOK</b>YOUR<b style="color: white">TRAIN</b></span>
+		</div>
+		
+	</div>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+	<script type="text/javascript">
+		$('#datepicker').datepicker({
+			format: 'dd/mm/yy',
+			startDate: '+0d'
+		});
+		$("#ex12c").slider({ id: "slider12c", min: 0, max: 10, range: true, value: [3, 7] });
+	</script>
+</body>

@@ -1,0 +1,100 @@
+/*
+* @Author: ngoc trung
+* @Date:   2017-09-24 10:35:04
+* @Last Modified by:   ngoc trung
+* @Last Modified time: 2017-09-25 19:26:25
+*/
+@media (min-width: 591px){
+	.xx{
+		padding-left:40px;
+	}
+}
+@media (min-width: 613px){
+	.xx{
+		padding-left:50px;
+	}
+}
+@media (min-width: 635px){
+	.xx{
+		padding-left:60px;
+	}
+}
+@media (min-width: 653px){
+	.xx{
+		padding-left:70px;
+	}
+}
+@media (min-width: 685px){
+	.xx{
+		padding-left:85px;
+	}
+}
+@media (min-width: 701px){
+	.xx{
+		padding-left:95px;
+	}
+}
+@media (min-width: 732px) and (max-width:767px){
+	.xx{
+		padding-left:135px;
+	}
+}
+@media (min-width:  394px){
+	.browe-all{
+		float:right;
+		margin-top: 70px;
+		
+	
+	}
+}
+@media (min-width: 646px){
+	.browe-all{
+		float:right;
+		margin-top: 50px;
+	
+	}
+}
+@media (min-width:  768px){
+	.button-refersh{
+		height:  40px;
+		width:  40px;
+		margin-left:3px;
+	}
+}
+@media (min-width:  1206px){
+	.button-refersh{
+		height:  40px;
+		width:  40px;
+		margin-left:10px;
+	}
+}
+@media (max-width:  767px){
+	.button-refersh{
+		height:  50px;
+		width:  50px;
+		margin-top:10px;
+		margin-bottom:  10px;
+	}
+}
+@media (min-width:  394px){
+	#older-post{
+		margin-top:40px;
+	}
+}
+@media (min-width: 1004px) and (max-width: 1250px){
+	.p-top-travel{
+		font-size:  10px;
+	}
+	.span-top-travel{
+		font-size:6px;
+	}
+}
+@media (min-width: 1251px) and (max-width: 1328px){
+	.p-top-travel{
+		font-size:  12px;
+	}
+	.span-top-travel{
+		font-size:8px;
+	}
+}
+

@@ -1,0 +1,1882 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<title>Searh ticket</title>
+	<meta name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+	<link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>	
+	<script type='text/javascript' src='js/jquery.js'></script>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
+	<link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/3.1.3/css/bootstrap-datetimepicker.min.css'>
+	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js'></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css">
+	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/3.1.3/js/bootstrap-datetimepicker.min.js'></script>
+	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/bootstrap-slider.min.js'></script>
+	<script type='text/javascript' src='js/bootstrap.min.js'></script>
+	<link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
+	<link rel='stylesheet' type='text/css' href='css/menu-style.css'>
+	<link rel='stylesheet' type='text/css' href='css/bootstrap-toggle.min.css'>
+	<link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/css/bootstrap-slider.min.css'>
+	<link rel='stylesheet' type='text/css' href='css/contact.css'>
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="booktickets.css">
+	<script type='text/javascript' src='js/04-results.js'></script>
+	<script type='text/javascript' src='js/bootstrap-toggle.min.js'></script>
+</head>
+
+</head>
+<body>
+	<header  id="head">
+		<div class="col-md-1 col-xs-1">
+			
+		</div>
+		<div class="col-md-9 col-xs-9">
+			<div class="col-md-1"></div>
+			<div id="train_logo" class="col-md-6 col-xs-6 col-sm-6" >
+				<img src="img/train.png" alt="train">
+
+				<span><b style="color: white">BOOK</b>YOUR<b style="color: white">TRAIN</b></span>
+			</div>
+			<div id="sign-log">
+				<span> <a href=""> Sign up </a> </span>
+				<span> <a href="">Log in </a> </span>
+			</div>
+			<div class="col-md-1 col-xs-1"></div>
+		</div>
+		<div class="col-md-1 col-xs-1"></div>
+	</header>
+	<nav class="navbar navbar-default" role="navigation" >
+		<div class="col-md-1 col-xs-1 col-sm-1"></div>
+		<div class="col-md-9 col-xs-10 col-sm-10">
+			<div class="col-md-1"></div>
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+				
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse navbar-ex1-collapse">
+							<ul class="nav navbar-nav">
+								<li><a href="home_v1.html">Home</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li class="dropdown">
+									<a href="" class="dropdown-toggle dropdown" data-toggle="dropdown">Pages<b class="caret" style="float: right;margin-top: 15px;"></b></a>
+									<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu" id="list-gallery">
+										<li><a href="#">Home</a></li>
+										<li class="dropdown dropdown-submenu"><a href="#list" tabindex="-1" class="dropdown-toggle dropdown" data-toggle="dropdown">Blog</i></a></li>
+										<li class="dropdown dropdown-submenu"><a href="#list" tabindex="-1" class="dropdown-toggle dropdown" data-toggle="dropdown"><span>Gallery</span><span class="glyphicon glyphicon-triangle-right" style="float: right; padding-top: 10px;"></span></a>
+											<ul class="submenu-2 dropdown-menu" id="list-blog">
+												<li><a href="#">2 Cols</a></li>
+												<li><a href="#">3 Cols</a></li>
+												<li><a href="#">4 Cols</a></li>
+											</ul>
+										</li>
+										<li><a href='about.html'>About US</a></li>
+										<li><a href="#">Contact</a></li>
+										<li><a href="search_ticket.html">Search Tickets</a></li>
+										<li><a href="#">Use Settings</a></li>
+										<li><a href="#">Shortcodes</a></li>
+										<li><a href="404.html">404 Page</a></li>
+									</ul>
+								</li>
+								<li><a href="about.html">About</a></li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+							
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">USD<b class="caret" style="float: right;margin-top: 15px;"></b></b></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Action</a></li>
+										<li><a href="#">Another action</a></li>
+										<li><a href="#">Something else here</a></li>
+										<li><a href="#">Separated link</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">ENG<b class="caret" style="float: right;margin-top: 15px;"></b></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Action</a></li>
+										<li><a href="#">Another action</a></li>
+										<li><a href="#">Something else here</a></li>
+										<li><a href="#">Separated link</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+	<div id="content_1" class="container-fluid">
+		<div class="col-md-1 col-xs-1"></div>
+		<div class="col-md-9 col-xs-9">
+			<div class="col-md-1"></div>
+			<div class="col-md-6">
+					<h1><b> WELCOM TO <br>BOOK </b> YOUR <b> TRAIN </b></h1>
+					<p>We saves your time both while purchasing, check-in and during the travel.</p>
+			</div>
+			
+			<div class="col-md-5 right">
+				<form action="">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<label for="">Travel Routes</label>
+						<input type="text" name="" placeholder="From" class="from routes col-md-5 col-xs-5 col-sm-5"  value="">
+						<img id="sund-img" class="col-md-2" src="img/sync.png" alt="">
+						<input type="text" name="" placeholder="To" class="to routes float col-md-5 col-xs-5 col-sm-5"  value="">
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<label>Travelling Date</label>
+						<input class="col-md-5 col-sm-5 col-xs-5" id="datepicker" placeholder="MM/DD/YY">
+						<!-- <input type="date" name="" placeholder="MM/DD/YY"> -->
+						<input class="float col-md-5 col-sm-5 col-xs-5" type="" id="datepick"  name="" placeholder="ONE WAY" class="float">
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<label for="">Travelling Persons</label>
+						<select class="col-md-5 col-sm-5 col-xs-5">
+							<option>1 Adult</option>
+							<option>2 Adults</option>
+							<option>3 Adults</option>
+						</select>
+						<select class="float col-md-5 col-sm-5 col-xs-5">
+							<option>0 Kid</option>
+							<option>1 Kid</option>
+							<option>2 Kids</option>
+						</select>
+					</div>
+					<button id="search_button">SEARCH TICKETS</button>
+				</form>
+			</div>
+		</div>
+		<div class="col-md-1 col-xs-1"></div>
+	</div>
+		<!-- end head -->
+		<!-- start content -->
+	<div id="content">
+		<div class='step-panel'>
+			<div class='panel-menu1 panel-hide show'><img src='img/step1.png' height="45px;"></div>
+			<div class='panel-menu2 panel-hide'><img src='img/step2.png'></div>
+			<div class='panel-menu3 panel-hide'><img src='img/step3.png'></div>
+			<div class='panel-menu4 panel-hide'><img src='img/step4.png'></div>
+		</div>
+		<div class='container'>
+			<div class='col-md-10 col-md-offset-1 row step1 show'>
+				<div class='left-panel col-sm-3 col-xs-12'>
+					<div id='filter-by' class='row'>
+						<div id='title'>Filter by</div>
+						<div id='check'>
+							<p>Coach time</p>
+							<div class='checkbox'>
+							  <button type='button' class='btn btn-xs btn-secondary btn-toggle active' data-toggle='button' aria-pressed='true' autocomplete='off'>
+						        <div class='handle'></div>
+						      </button>
+						      Third class sleeping
+							</div>
+							<div class='checkbox'>
+							    <button type='button' class='btn btn-xs btn-secondary btn-toggle active' data-toggle='button' aria-pressed='true' autocomplete='off'>
+						        <div class='handle'></div>
+						      </button>
+							   	Second class sleeping							  
+							</div>
+							<div class='checkbox'>							  
+							    <button type='button' class='btn btn-xs btn-secondary btn-toggle active' data-toggle='button' aria-pressed='true' autocomplete='off'>
+						        <div class='handle'></div>
+						      </button>
+							    First class sleepng							  
+							</div>
+							<div class='checkbox'>
+							  
+							    <button type='button' class='btn btn-xs btn-secondary btn-toggle active' data-toggle='button' aria-pressed='true' autocomplete='off'>
+						        <div class='handle'></div>
+						      </button>
+							    Comfortable							  
+							</div>
+							<div class='checkbox'>
+							  
+							    <button type='button' class='btn btn-xs btn-secondary btn-toggle active' data-toggle='button' aria-pressed='true' autocomplete='off'>
+						        <div class='handle'></div>
+						      </button>
+							    Third class non reserve							  
+							</div>
+							<div class='checkbox'>
+							  
+							    <button type='button' class='btn btn-xs btn-secondary btn-toggle active' data-toggle='button' aria-pressed='true' autocomplete='off'>
+						        <div class='handle'></div>
+						      </button>
+							    Sedentary carri							  
+							</div>
+							<div class='checkbox'>							  
+							    <button type='button' class='btn btn-xs btn-secondary btn-toggle active' data-toggle='button' aria-pressed='true' autocomplete='off'>
+						        <div class='handle'></div>
+						      </button>
+							    All							  
+							</div>
+							<p>Departure/Arrive time</p>
+							<!-- <div>
+								<input id='ex14' type='text' data-slider-ticks='[0, 100, 200, 300, 400]' data-slider-ticks-snap-bounds='30' data-slider-ticks-labels='['$0', '$100', '$200', '$300', '$400']' ticks_positions='[0, 30, 60, 70, 90, 100]' />
+							</div> -->
+						</div>
+					</div>
+					<div id='recent-ticket'>
+						<div id='title'>Recent tickets</div>
+						<div class='box-recent-tickets row'>
+							<div class='col-xs-6 box-recent-tickets-left'>
+								<h5>New York</h5>
+								<span>penn Station,NY</span>
+								<p></p>
+							</div>
+							<!-- <div class='col-xs-1'>
+								
+							</div> -->
+							<div class='col-xs-6 box-recent-tickets-right'>
+								<h5>Lost Angeles</h5>
+								<span>Union Station,CA</span>
+								<!-- <p>from<span>$48</span></p> -->
+							</div>
+							<div class='col-xs-12' style='padding: 10px 5%;'>
+								<div class='col-xs-6' style='text-align: left;padding: 0;'>
+									<i class='fa fa-wifi' aria-hidden='true'></i>
+									<i class='fa fa-moon-o' aria-hidden='true'></i>
+									<i class='fa fa-coffee' aria-hidden='true'></i>
+								</div>
+								<div class='col-xs-6' style='text-align: right;padding: 0'>
+									from<span style='color: orange; font-size: 18px;'>$48</span></div>
+							</div>
+						</div>
+						<div class='box-recent-tickets row'>
+							<div class='col-xs-6 box-recent-tickets-left'>
+								<h5>Paris</h5>
+								<span>Gare Saint,Lazare</span>
+								<p></p>
+							</div>
+							<!-- <div class='col-xs-1'>
+								
+							</div> -->
+							<div class='col-xs-6 box-recent-tickets-right'>
+								<h5>London</h5>
+								<span>Paddington Station</span>
+								<!-- <p>from<span>$48</span></p> -->
+							</div>
+							<div class='col-xs-12' style='padding: 10px 5%;'>
+								<div class='col-xs-6' style='text-align: left;padding: 0;'>
+									<i class='fa fa-wifi' aria-hidden='true'></i>
+									<i class='fa fa-moon-o' aria-hidden='true'></i>
+									<i class='fa fa-coffee' aria-hidden='true'></i>
+								</div>
+								<div class='col-xs-6' style='text-align: right;padding: 0'>
+									from<span style='color: orange; font-size: 18px;'>$72</span></div>
+							</div>
+						</div>
+						<div class='box-recent-tickets row'>
+							<div class='col-xs-6 box-recent-tickets-left'>
+								<h5>New York</h5>
+								<span>penn Station,NY</span>
+								<p></p>
+							</div>
+						
+							<div class='col-xs-6 box-recent-tickets-right'>
+								<h5>Lost Angeles</h5>
+								<span>Union Station,CA</span>
+								<!-- <p>from<span>$48</span></p> -->
+							</div>
+							<div class='col-xs-12' style='padding: 10px 5%;'>
+								<div class='col-xs-6' style='text-align: left;padding: 0;'>
+									<i class='fa fa-wifi' aria-hidden='true'></i>
+									<i class='fa fa-moon-o' aria-hidden='true'></i>
+									<i class='fa fa-coffee' aria-hidden='true'></i>
+								</div>
+								<div class='col-xs-6' style='text-align: right;padding: 0'>
+									from<span style='color: orange; font-size: 18px;'>$36</span></div>
+							</div>
+						</div>
+					</div>
+					<div id='recent-posts'>
+						<p>Recent Posts</p>
+						<div class='box-recent-posts '>
+							<div class='box-recent-posts-img '>
+								<div>
+									<img src='img/img1.jpg' width='75px' height='75px'>
+									<div class='hover'>
+										<i class='fa fa-search-plus' aria-hidden='true'></i>
+									</div>
+								</div>
+							</div>
+							<div class='box-recent-posts-text'>
+								<p>Lorem ipsum </p>
+								<span>1 day ago</span>
+							</div>
+						</div>
+						<div class='box-recent-posts '>
+							<div class='box-recent-posts-img '>
+								<div>
+									<img src='img/img4.jpg' width='75px' height='75px'>
+									<div class='hover'>
+										<i class='fa fa-search-plus' aria-hidden='true'></i>
+									</div>
+								</div>
+							</div>
+							<div class='box-recent-posts-text'>
+								<p>Lorem ipsum</p>
+								<span>1 day ago</span>
+							</div>
+						</div>
+						<div class='box-recent-posts '>
+							<div class='box-recent-posts-img '>
+								<div>
+									<img src='img/img8.jpg' width='75px' height='75px'>
+									<div class='hover'>
+										<i class='fa fa-search-plus' aria-hidden='true'></i>
+									</div>
+								</div>
+							</div>
+							<div class='box-recent-posts-text'>
+								<p>Lorem ipsum </p>
+								<span>1 day ago</span>
+							</div>
+						</div>
+						
+						<div class='box-recent-posts'></div>
+					</div>
+				</div>
+				<div class='list-tickets col-sm-9 col-xs-12'>
+					<div id='sort'>
+						<span id='left'>10 of 12 found</span>
+						<div class='dropdown'>
+						  <a id='dLabel' role='button' data-toggle='dropdown' data-target='#' href='/page.html'>
+						    Show 5 tickets on page <span class='caret'></span>
+						  </a>
+						  <ul class='dropdown-menu' role='menu' aria-labelledby='dLabel'>
+						    <li><a href='#'>Show 5 tickets on page</a></li>
+						    <li><a href='#'>Show 10 tickets on page</a></li>
+						    <li><a href='#'>Show 15 tickets on page</a></li>
+						  </ul>
+						</div>
+						<div class='dropdown'>
+						  <a id='dLabel' role='button' data-toggle='dropdown' data-target='#' href='/page.html'>
+						    Sort by time <span class='caret'></span>
+						  </a>
+						  <ul class='dropdown-menu' role='menu' aria-labelledby='dLabel'>
+						    <li><a href='#'>Today</a></li>
+						    <li><a href='#'>Tomorrow</a></li>
+						    <li><a href='#'>1 Week</a></li>
+						  </ul>
+						</div>
+					</div>
+					<div >
+						<div class='box-list-tickets'>
+							<div class="col-md-3 col-xs-12 col-sm-3 first">
+								<div class="train-name">
+									<img src="img/train_name.png" alt="">
+								</div>
+								<div class="name"><p class="numb">0484A</p><p class="way">North Express</p></div>
+							</div>
+							<div class='col-xs-12 col-sm-6 col-md-6 middle-detail'>
+								<div class='col-xs-12'>
+									<div class='col-xs-5 box-recent-tickets-left'>
+										<h3>8:30p</h3>
+										<span>Fed 14 SUN</span>
+										<h5>New York</h5>
+										<span>penn Station,NY</span>
+										<p></p>
+									</div>
+									<div class='col-xs-2 arrow' >
+										<p><span>07:25</span></p>
+										<span><i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>
+									</div>
+									<div class='col-xs-5 box-recent-tickets-right'>
+										<h3>2:50a</h3>
+										<span>Fed 15 SUN</span>
+										<h5>Lost Angeles</h5>
+										<span>Union Station,CA</span>
+										<!-- <p>from<span>$48</span></p> -->
+									</div>
+								</div>
+								<div class='col-xs-12'>
+									<div class='col-xs-5 box-recent-tickets-left'>
+										<h3>8:30p</h3>
+										<span>Fed 14 SUN</span>
+										<h5>New York</h5>
+										<span>penn Station,NY</span>
+										<p></p>
+									</div>
+									<div class='col-xs-2 arrow' >
+										<p><span>07:25</span></p>
+										<span><i class='fa fa-long-arrow-left' aria-hidden='true'></i></span>
+									</div>
+									<div class='col-xs-5 box-recent-tickets-right'>
+										<h3>2:50a</h3>
+										<span>Fed 15 SUN</span>
+										<h5>Lost Angeles</h5>
+										<span>Union Station,CA</span>
+										<!-- <p>from<span>$48</span></p> -->
+									</div>
+								</div>
+							</div>
+							<div class='col-xs-3 col-sm-3 col-md-3 buy'>
+								<p><span class='cost'>$38</span><span>/person</span></p>
+								<span>
+									<i class='fa fa-wifi' aria-hidden='true'></i>
+									<i class='fa fa-moon-o' aria-hidden='true'></i>
+									<i class='fa fa-coffee' aria-hidden='true'></i>
+									<i class='fa fa-rocket' aria-hidden='true'></i>
+								</span>
+								<br>
+								<button type='button' class='btn btn-primary'>Buy now</button>
+							</div>
+						</div>
+						<div class='box-list-tickets'>
+							<div class="col-md-3 col-xs-12 col-sm-3 first">
+								<div class="train-name">
+									<img src="img/train_name.png" alt="">
+								</div>
+								<div class="name"><p class="numb">0484A</p><p class="way">North Express</p></div>
+							</div>
+							<div class='col-xs-12 col-sm-6 col-md-6 middle-detail'>
+								<div class='col-xs-12'>
+									<div class='col-xs-5 box-recent-tickets-left'>
+										<h3>8:30p</h3>
+										<span>Fed 14 SUN</span>
+										<h5>New York</h5>
+										<span>penn Station,NY</span>
+										<p></p>
+									</div>
+									<div class='col-xs-2 arrow' >
+										<p><span>07:25</span></p>
+										<span><i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>
+									</div>
+									<div class='col-xs-5 box-recent-tickets-right'>
+										<h3>2:50a</h3>
+										<span>Fed 15 SUN</span>
+										<h5>Lost Angeles</h5>
+										<span>Union Station,CA</span>
+										<!-- <p>from<span>$48</span></p> -->
+									</div>
+								</div>
+								<div class='col-xs-12'>
+									<div class='col-xs-5 box-recent-tickets-left'>
+										<h3>8:30p</h3>
+										<span>Fed 14 SUN</span>
+										<h5>New York</h5>
+										<span>penn Station,NY</span>
+										<p></p>
+									</div>
+									<div class='col-xs-2 arrow' >
+										<p><span>07:25</span></p>
+										<span><i class='fa fa-long-arrow-left' aria-hidden='true'></i></span>
+									</div>
+									<div class='col-xs-5 box-recent-tickets-right'>
+										<h3>2:50a</h3>
+										<span>Fed 15 SUN</span>
+										<h5>Lost Angeles</h5>
+										<span>Union Station,CA</span>
+										<!-- <p>from<span>$48</span></p> -->
+									</div>
+								</div>
+							</div>
+							<div class='col-xs-3 col-sm-3 col-md-3 buy'>
+								<p><span class='cost'>$38</span><span>/person</span></p>
+								<span>
+									<i class='fa fa-wifi' aria-hidden='true'></i>
+									<i class='fa fa-moon-o' aria-hidden='true'></i>
+									<i class='fa fa-coffee' aria-hidden='true'></i>
+									<i class='fa fa-rocket' aria-hidden='true'></i>
+								</span>
+								<br>
+								<button type='button' class='btn btn-primary'>Buy now</button>
+							</div>
+						</div>
+						<div class='box-list-tickets'>
+							<div class="col-md-3 col-xs-12 col-sm-3 first">
+								<div class="train-name">
+									<img src="img/train_name.png" alt="">
+								</div>
+								<div class="name"><p class="numb">0484A</p><p class="way">North Express</p></div>
+							</div>
+							<div class='col-xs-12 col-sm-6 col-md-6 middle-detail'>
+								<div class='col-xs-12'>
+									<div class='col-xs-5 box-recent-tickets-left'>
+										<h3>8:30p</h3>
+										<span>Fed 14 SUN</span>
+										<h5>New York</h5>
+										<span>penn Station,NY</span>
+										<p></p>
+									</div>
+									<div class='col-xs-2 arrow' >
+										<p><span>07:25</span></p>
+										<span><i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>
+									</div>
+									<div class='col-xs-5 box-recent-tickets-right'>
+										<h3>2:50a</h3>
+										<span>Fed 15 SUN</span>
+										<h5>Lost Angeles</h5>
+										<span>Union Station,CA</span>
+										<!-- <p>from<span>$48</span></p> -->
+									</div>
+								</div>
+								<div class='col-xs-12'>
+									<div class='col-xs-5 box-recent-tickets-left'>
+										<h3>8:30p</h3>
+										<span>Fed 14 SUN</span>
+										<h5>New York</h5>
+										<span>penn Station,NY</span>
+										<p></p>
+									</div>
+									<div class='col-xs-2 arrow' >
+										<p><span>07:25</span></p>
+										<span><i class='fa fa-long-arrow-left' aria-hidden='true'></i></span>
+									</div>
+									<div class='col-xs-5 box-recent-tickets-right'>
+										<h3>2:50a</h3>
+										<span>Fed 15 SUN</span>
+										<h5>Lost Angeles</h5>
+										<span>Union Station,CA</span>
+										<!-- <p>from<span>$48</span></p> -->
+									</div>
+								</div>
+							</div>
+							<div class='col-xs-3 col-sm-3 col-md-3 buy'>
+								<p><span class='cost'>$38</span><span>/person</span></p>
+								<span>
+									<i class='fa fa-wifi' aria-hidden='true'></i>
+									<i class='fa fa-moon-o' aria-hidden='true'></i>
+									<i class='fa fa-coffee' aria-hidden='true'></i>
+									<i class='fa fa-rocket' aria-hidden='true'></i>
+								</span>
+								<br>
+								<button type='button' class='btn btn-primary'>Buy now</button>
+							</div>
+						</div>
+						<div class='box-list-tickets'>
+							<div class="col-md-3 col-xs-12 col-sm-3 first">
+								<div class="train-name">
+									<img src="img/train_name.png" alt="">
+								</div>
+								<div class="name"><p class="numb">0484A</p><p class="way">North Express</p></div>
+							</div>
+							<div class='col-xs-12 col-sm-6 col-md-6 middle-detail'>
+								<div class='col-xs-12'>
+									<div class='col-xs-5 box-recent-tickets-left'>
+										<h3>8:30p</h3>
+										<span>Fed 14 SUN</span>
+										<h5>New York</h5>
+										<span>penn Station,NY</span>
+										<p></p>
+									</div>
+									<div class='col-xs-2 arrow' >
+										<p><span>07:25</span></p>
+										<span><i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>
+									</div>
+									<div class='col-xs-5 box-recent-tickets-right'>
+										<h3>2:50a</h3>
+										<span>Fed 15 SUN</span>
+										<h5>Lost Angeles</h5>
+										<span>Union Station,CA</span>
+										<!-- <p>from<span>$48</span></p> -->
+									</div>
+								</div>
+								<div class='col-xs-12'>
+									<div class='col-xs-5 box-recent-tickets-left'>
+										<h3>8:30p</h3>
+										<span>Fed 14 SUN</span>
+										<h5>New York</h5>
+										<span>penn Station,NY</span>
+										<p></p>
+									</div>
+									<div class='col-xs-2 arrow' >
+										<p><span>07:25</span></p>
+										<span><i class='fa fa-long-arrow-left' aria-hidden='true'></i></span>
+									</div>
+									<div class='col-xs-5 box-recent-tickets-right'>
+										<h3>2:50a</h3>
+										<span>Fed 15 SUN</span>
+										<h5>Lost Angeles</h5>
+										<span>Union Station,CA</span>
+										<!-- <p>from<span>$48</span></p> -->
+									</div>
+								</div>
+							</div>
+							<div class='col-xs-3 col-sm-3 col-md-3 buy'>
+								<p><span class='cost'>$38</span><span>/person</span></p>
+								<span>
+									<i class='fa fa-wifi' aria-hidden='true'></i>
+									<i class='fa fa-moon-o' aria-hidden='true'></i>
+									<i class='fa fa-coffee' aria-hidden='true'></i>
+									<i class='fa fa-rocket' aria-hidden='true'></i>
+								</span>
+								<br>
+								<button type='button' class='btn btn-primary'>Buy now</button>
+							</div>
+						</div>
+						<div class='box-list-tickets'>
+							<div class="col-md-3 col-xs-12 col-sm-3 first">
+								<div class="train-name">
+									<img src="img/train_name.png" alt="">
+								</div>
+								<div class="name"><p class="numb">0484A</p><p class="way">North Express</p></div>
+							</div>
+							<div class='col-xs-12 col-sm-6 col-md-6 middle-detail'>
+								<div class='col-xs-12'>
+									<div class='col-xs-5 box-recent-tickets-left'>
+										<h3>8:30p</h3>
+										<span>Fed 14 SUN</span>
+										<h5>New York</h5>
+										<span>penn Station,NY</span>
+										<p></p>
+									</div>
+									<div class='col-xs-2 arrow' >
+										<p><span>07:25</span></p>
+										<span><i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>
+									</div>
+									<div class='col-xs-5 box-recent-tickets-right'>
+										<h3>2:50a</h3>
+										<span>Fed 15 SUN</span>
+										<h5>Lost Angeles</h5>
+										<span>Union Station,CA</span>
+										<!-- <p>from<span>$48</span></p> -->
+									</div>
+								</div>
+								<div class='col-xs-12'>
+									<div class='col-xs-5 box-recent-tickets-left'>
+										<h3>8:30p</h3>
+										<span>Fed 14 SUN</span>
+										<h5>New York</h5>
+										<span>penn Station,NY</span>
+										<p></p>
+									</div>
+									<div class='col-xs-2 arrow' >
+										<p><span>07:25</span></p>
+										<span><i class='fa fa-long-arrow-left' aria-hidden='true'></i></span>
+									</div>
+									<div class='col-xs-5 box-recent-tickets-right'>
+										<h3>2:50a</h3>
+										<span>Fed 15 SUN</span>
+										<h5>Lost Angeles</h5>
+										<span>Union Station,CA</span>
+										<!-- <p>from<span>$48</span></p> -->
+									</div>
+								</div>
+							</div>
+							<div class='col-xs-3 col-sm-3 col-md-3 buy'>
+								<p><span class='cost'>$38</span><span>/person</span></p>
+								<span>
+									<i class='fa fa-wifi' aria-hidden='true'></i>
+									<i class='fa fa-moon-o' aria-hidden='true'></i>
+									<i class='fa fa-coffee' aria-hidden='true'></i>
+									<i class='fa fa-rocket' aria-hidden='true'></i>
+								</span>
+								<br>
+								<button type='button' class='btn btn-primary'>Buy now</button>
+							</div>
+						</div>
+						<div class='box-list-tickets'>
+							<div class="col-md-3 col-xs-12 col-sm-3 first">
+								<div class="train-name">
+									<img src="img/train_name.png" alt="">
+								</div>
+								<div class="name"><p class="numb">0484A</p><p class="way">North Express</p></div>
+							</div>
+							<div class='col-xs-12 col-sm-6 col-md-6 middle-detail'>
+								<div class='col-xs-12'>
+									<div class='col-xs-5 box-recent-tickets-left'>
+										<h3>8:30p</h3>
+										<span>Fed 14 SUN</span>
+										<h5>New York</h5>
+										<span>penn Station,NY</span>
+										<p></p>
+									</div>
+									<div class='col-xs-2 arrow' >
+										<p><span>07:25</span></p>
+										<span><i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>
+									</div>
+									<div class='col-xs-5 box-recent-tickets-right'>
+										<h3>2:50a</h3>
+										<span>Fed 15 SUN</span>
+										<h5>Lost Angeles</h5>
+										<span>Union Station,CA</span>
+										<!-- <p>from<span>$48</span></p> -->
+									</div>
+								</div>
+								<div class='col-xs-12'>
+									<div class='col-xs-5 box-recent-tickets-left'>
+										<h3>8:30p</h3>
+										<span>Fed 14 SUN</span>
+										<h5>New York</h5>
+										<span>penn Station,NY</span>
+										<p></p>
+									</div>
+									<div class='col-xs-2 arrow' >
+										<p><span>07:25</span></p>
+										<span><i class='fa fa-long-arrow-left' aria-hidden='true'></i></span>
+									</div>
+									<div class='col-xs-5 box-recent-tickets-right'>
+										<h3>2:50a</h3>
+										<span>Fed 15 SUN</span>
+										<h5>Lost Angeles</h5>
+										<span>Union Station,CA</span>
+										<!-- <p>from<span>$48</span></p> -->
+									</div>
+								</div>
+							</div>
+							<div class='col-xs-3 col-sm-3 col-md-3 buy'>
+								<p><span class='cost'>$38</span><span>/person</span></p>
+								<span>
+									<i class='fa fa-wifi' aria-hidden='true'></i>
+									<i class='fa fa-moon-o' aria-hidden='true'></i>
+									<i class='fa fa-coffee' aria-hidden='true'></i>
+									<i class='fa fa-rocket' aria-hidden='true'></i>
+								</span>
+								<br>
+								<button type='button' class='btn btn-primary'>Buy now</button>
+							</div>
+						</div>
+						<div id='pagination'>
+							<ul class='pagination'>
+							  <li><a href='#'>&laquo;</a></li>
+							  <li><a href='#' class='now'>1</a></li>
+							  <li><a href='#'>2</a></li>
+							  <li><a href='#'>3</a></li>
+							  <li><a href='#'>&raquo;</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='col-md-10 col-md-offset-1 row step2'>
+				<div class='col-xs-12 col-sm-3 panel-left'>
+					<div class='summary row'><p>Summary</p></div>
+					<div class='summary-there row'>
+						<div class='row'>
+							<div class='col-xs-7 font-bold' >
+								<i class='fa fa-arrow-circle-right' aria-hidden='true'></i>
+								There
+							</div>
+							<!-- <div class='col-xs-2'></div> -->
+							<div class='col-xs-5 right'>
+								<i class='minus fa fa-minus-square-o show' aria-hidden='true'  data-toggle='collapse' data-target='#demo'></i>
+								<i class='plus fa fa-plus-square-o' aria-hidden='true' data-toggle='collapse' data-target='#demo'></i>
+							</div>
+						</div>
+						<div id='demo' class='collapse in'>
+							<div class='row'>
+								<div class='col-xs-4'>
+									<span>Train<br>Name</span>
+								</div>
+								<div class='col-xs-2 mid' ></div>
+								<div class='col-xs-6 right' >
+									<p>048A<br>North Express</p>
+								</div>
+							</div>
+							<div class='row' >
+								<div class='col-xs-5'>
+									<p class='font-bold'>8:30p</p>
+									<span>Feb 12 MON</span>
+								</div>
+								<div class='col-xs-2 mid' >
+									<p>8:20</p>
+									<i class='fa fa-long-arrow-right' aria-hidden='true'></i>
+								</div>
+								<div class='col-xs-5 right' >
+									<p class='font-bold'>4:15p</p>
+									<span>Feb 13 TUE</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='summary-back row'>
+						<div class='row'>
+							<div class='col-xs-7 font-bold' >
+								<i class='fa fa-arrow-circle-left' aria-hidden='true'></i>
+								Back
+							</div>
+							<!-- <div class='col-xs-2'></div> -->
+							<div class='col-xs-5 right'>
+								<i class='minus fa fa-minus-square-o show' aria-hidden='true'  data-toggle='collapse' data-target='#demo2'></i>
+								<i class='plus fa fa-plus-square-o' aria-hidden='true' data-toggle='collapse' data-target='#demo2'></i>
+							</div>
+						</div>
+						<div id='demo2' class='collapse in'>
+							<div class='row'>
+								<div class='col-xs-5'>
+									<span>Train<br>Name</span>
+								</div>
+								<div class='col-xs-2 mid' ></div>
+								<div class='col-xs-5 right' >
+									<p>048A<br>North Express</p>
+								</div>
+							</div>
+							<div class='row' >
+								<div class='col-xs-5'>
+									<p class='font-bold'>8:30p</p>
+									<span>Feb 12 MON</span>
+								</div>
+								<div class='col-xs-2 mid' >
+									<p>8:20</p>
+									<i class='fa fa-long-arrow-right' aria-hidden='true'></i>
+								</div>
+								<div class='col-xs-5 right' >
+									<p class='font-bold'>4:15p</p>
+									<span>Feb 13 TUE</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='summary-passenger row'>
+						<div class='row'>
+							<div class='col-xs-7 font-bold' >
+								<i class='fa fa-user' aria-hidden='true'></i>
+								Passenger
+							</div>
+							<!-- <div class='col-xs-2'></div> -->
+							<div class='col-xs-5 right'>
+								<i class='minus fa fa-minus-square-o show' aria-hidden='true'  data-toggle='collapse' data-target='#demo3'></i>
+								<i class='plus fa fa-plus-square-o' aria-hidden='true' data-toggle='collapse' data-target='#demo3'></i>
+							</div>
+						</div>
+						<div id='demo3' class='collapse in'>
+							<div class='row'>
+								<div class='col-xs-5'>
+									<span>1 Adult<br>0 Children</span>
+								</div>
+								<div class='col-xs-2 mid' ></div>
+								<div class='col-xs-5 right' >
+									<p>$260<br>$0</p>
+								</div>
+							</div>
+						</div>
+					</div>		
+					<div class='summary-baggare row'>
+						<div class='row'>
+							<div class='col-xs-7 font-bold' >
+								<i class='fa fa-suitcase' aria-hidden='true'></i>
+								Baggare
+							</div>
+							<!-- <div class='col-xs-2'></div> -->
+							<div class='col-xs-5 right'>
+								<i class='minus fa fa-minus-square-o show' aria-hidden='true'  data-toggle='collapse' data-target='#demo4'></i>
+								<i class='plus fa fa-plus-square-o' aria-hidden='true' data-toggle='collapse' data-target='#demo4'></i>
+							</div>
+						</div>
+						<div id='demo4' class='collapse in'>
+							<div class='row'>
+								<div class='col-xs-5'>
+									<span>1 Excess<br>0 Animal/bird<br>0 Equipment</span>
+								</div>
+								<div class='col-xs-2 mid' ></div>
+								<div class='col-xs-5 right' >
+									<p>$44<br>$0<br>$0</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='summary-total row'>
+						<div class='row col-xs-12'>
+							<div class='col-xs-5'>
+								<p>Total</p>
+							</div>
+							<div class='col-xs-2 mid' ></div>
+							<div class='col-xs-5 right' >
+								<p>$304.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='col-xs-12 col-md-9 passenger-info' >
+					<div class='box-passenger col-xs-12'>
+						<div class='title-box-passenger '>
+							<div class='col-xs-6 left'>
+								<i class='fa fa-minus-square-o minus show' aria-hidden='true' data-toggle='collapse' data-target='#form1'></i>
+								<i class='fa fa-plus-square-o plus' aria-hidden='true' data-toggle='collapse' data-target='#form1'></i>
+								Passenger 1
+							</div>
+							<div class='col-xs-6 right'>
+							Remove<i class='fa fa-times remove' aria-hidden='true' ></i>
+							</div>
+						</div>
+						<div id='form1' class='collapse in'><form action='' >
+							<div class='form-passenger'>
+								<div class='col-xs-12 col-sm-4 form-group'>
+									<label for='firstName1' class="control-label">First name</label>
+									<input type='text' name='' class='form-control' id='firstName1'>
+								</div>
+								<div class='col-xs-12 col-sm-4 form-group'>
+									<label for='lastName1' class="control-label">Last name</label>
+									<input type='text' name='' class='form-control' id='lastName1'>
+								</div>
+								<div class='col-xs-12 col-sm-4 form-group'>
+									<label for='age1' class="control-label">Age</label>
+									<select class='form-control' id='age1'>
+										<option value=""></option>
+										<option value="1">Kid</option>
+										<option value="1">Adult</option>										
+									</select>
+								</div>
+								<div class='col-xs-12'>
+									<div class='checkbox'>
+							            <label style='font-size: 1.3em;padding-left: 0;margin-top: 20px;'>
+							                <input type='checkbox' value=''>
+							                <span class='cr'><i class='cr-icon fa fa-check'></i></span>
+							                <span >Reduced mobility</span>
+							            </label>
+							        </div>
+								</div>
+							</div>
+							<div class='form-passenger'>
+								<div class='col-xs-12 col-sm-4  form-group'>
+									<label for='documentType1' class="control-label">Document Type</label>
+									<select class='form-control' id='documentType1'>
+										<option value=""></option>
+										<option value="1">Passport</option>
+										<option value="1">Cmtnn</option>										
+									</select>
+								</div>
+
+								<div class='col-xs-12 col-sm-4  form-group'>
+									<label for='documentNumber1' class="control-label">Document number</label>
+									<input type='text' name='' class='form-control' id='documentNumber1'>
+								</div>
+								<div class='col-xs-12 col-sm-4 form-group'>
+									<label for='citizentship1' class="control-label">Citizentship</label>
+									<select class='form-control' id='citizentship1'>
+										<option value=""></option>
+										<option value="1">United Kingdom</option>
+										<option value="1">Brazin</option>
+										<option value="1">USA</option>
+									</select>
+								</div>
+							</div>
+							<div class='form-passenger '>
+								<div class='col-xs-12 col-sm-4  form-group'>
+									<label for='addBaggage1' class="control-label">Additional Baggage</label>
+									<select class='form-control' id='addBaggage1'>
+										<option value=""></option>
+										<option value="1">1 Excess</option>
+										<option value="1">2 Excess</option>
+										<option value="1">3 Excess</option>										
+									</select>
+								</div>
+								<div class='col-xs-12 col-sm-4  form-group'>
+									<label for='animals1' class="control-label">Animals</label>
+									<select class='form-control' id='animals1'>
+										<option value=""></option>
+										<option value="1">0 Animals</option>
+										<option value="1">1 Animals</option>
+										<option value="1">2 Animals</option>
+										<option value="1">3 Animals</option>									
+									</select>
+								</div>
+								<div class='col-xs-12 col-sm-4  form-group'>
+									<label for='equipment1' class="control-label">Equipment</label>
+									<select class='form-control' id='equipment1'>
+										<option value=""></option>
+										<option value="1">0 Equipment</option>
+										<option value="1">1 Equipment</option>
+										<option value="1">2 Equipment</option>
+										<option value="1">3 Equipment</option>
+									</select>
+								</div>
+							</div>
+							<div class='next-passenger row'>
+								<div class='col-xs-6 left1'>
+								</div>
+								<div class='col-xs-6 right'>
+									<button type='button' class='btn btn-lg btn-default' data-id='1'>Next passenger</button>
+								</div>
+							</div>
+						</form></div>
+					</div>
+					<div class="append" ></div>
+					<div class='box-passenger col-xs-12'>
+						<div class='title-box-passenger '>
+							<div class='col-xs-6 left1'>
+								New Passenger
+							</div>
+							<div class='col-xs-6 right'>
+							Add<i class='fa fa-plus add' aria-hidden='true'></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 buy-tickets">
+						<button type='button' class='btn btn-lg btn-default' id="buy-tickets">BUY TICKETS</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-10 col-md-offset-1 row step3">
+				<div class=' col-xs-12 col-md-3 panel-left'>
+					<div class='summary row'><p>Summary</p></div>
+					<div class='summary-there row'>
+						<div class='row'>
+							<div class='col-xs-7 font-bold' >
+								<i class='fa fa-arrow-circle-right' aria-hidden='true'></i>
+								There
+							</div>
+							<div class='col-xs-5 right'>
+								<i class='minus fa fa-minus-square-o show' aria-hidden='true'  data-toggle='collapse' data-target='#there'></i>
+								<i class='plus fa fa-plus-square-o' aria-hidden='true' data-toggle='collapse' data-target='#there'></i>
+							</div>
+						</div>
+						<div id='there' class='collapse in'>
+							<div class='row'>
+								<div class='col-xs-5'>
+									<span>Train<br>Name</span>
+								</div>
+								<div class='col-xs-2 mid' ></div>
+								<div class='col-xs-5 right' >
+									<p>048A<br>North Express</p>
+								</div>
+							</div>
+							<div class='row' >
+								<div class='col-xs-5'>
+									<p class='font-bold'>8:30p</p>
+									<span>Feb 12 MON</span>
+								</div>
+								<div class='col-xs-2 mid' >
+									<p>8:20</p>
+									<i class='fa fa-long-arrow-right' aria-hidden='true'></i>
+								</div>
+								<div class='col-xs-5 right' >
+									<p class='font-bold'>4:15p</p>
+									<span>Feb 13 TUE</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='summary-back row'>
+						<div class='row'>
+							<div class='col-xs-7 font-bold' >
+								<i class='fa fa-arrow-circle-left' aria-hidden='true'></i>
+								Back
+							</div>
+							<!-- <div class='col-xs-2'></div> -->
+							<div class='col-xs-5 right'>
+								<i class='minus fa fa-minus-square-o show' aria-hidden='true'  data-toggle='collapse' data-target='#back'></i>
+								<i class='plus fa fa-plus-square-o' aria-hidden='true' data-toggle='collapse' data-target='#back'></i>
+							</div>
+						</div>
+						<div id='back' class='collapse in'>
+							<div class='row'>
+								<div class='col-xs-5'>
+									<span>Train<br>Name</span>
+								</div>
+								<div class='col-xs-2 mid' ></div>
+								<div class='col-xs-5 right' >
+									<p>048A<br>North Express</p>
+								</div>
+							</div>
+							<div class='row' >
+								<div class='col-xs-5'>
+									<p class='font-bold'>8:30p</p>
+									<span>Feb 12 MON</span>
+								</div>
+								<div class='col-xs-2 mid' >
+									<p>8:20</p>
+									<i class='fa fa-long-arrow-right' aria-hidden='true'></i>
+								</div>
+								<div class='col-xs-5 right' >
+									<p class='font-bold'>4:15p</p>
+									<span>Feb 13 TUE</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='summary-passenger row'>
+						<div class='row'>
+							<div class='col-xs-7 font-bold' >
+								<i class='fa fa-user' aria-hidden='true'></i>
+								Passenger
+							</div>
+							<!-- <div class='col-xs-2'></div> -->
+							<div class='col-xs-5 right'>
+								<i class='minus fa fa-minus-square-o show' aria-hidden='true'  data-toggle='collapse' data-target='#summary-passenger'></i>
+								<i class='plus fa fa-plus-square-o' aria-hidden='true' data-toggle='collapse' data-target='#summary-passenger'></i>
+							</div>
+						</div>
+						<div id='summary-passenger' class='collapse in'>
+							<div class='row'>
+								<div class='col-xs-5'>
+									<span>1 Adult<br>0 Children</span>
+								</div>
+								<div class='col-xs-2 mid' ></div>
+								<div class='col-xs-5 right' >
+									<p>$260<br>$0</p>
+								</div>
+							</div>
+						</div>
+					</div>		
+					<div class='summary-baggare row'>
+						<div class='row'>
+							<div class='col-xs-7 font-bold' >
+								<i class='fa fa-suitcase' aria-hidden='true'></i>
+								Baggare
+							</div>
+							<!-- <div class='col-xs-2'></div> -->
+							<div class='col-xs-5 right'>
+								<i class='minus fa fa-minus-square-o show' aria-hidden='true'  data-toggle='collapse' data-target='#summary-baggare'></i>
+								<i class='plus fa fa-plus-square-o' aria-hidden='true' data-toggle='collapse' data-target='#summary-baggare'></i>
+							</div>
+						</div>
+						<div id='summary-baggare' class='collapse in'>
+							<div class='row'>
+								<div class='col-xs-5'>
+									<span>1 Excess<br>0 Animal/bird<br>0 Equipment</span>
+								</div>
+								<div class='col-xs-2 mid' ></div>
+								<div class='col-xs-5 right' >
+									<p>$44<br>$0<br>$0</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='summary-total row'>
+						<div class='row col-xs-12'>
+							<div class='col-xs-5'>
+								<p>Total</p>
+							</div>
+							<div class='col-xs-2 mid' ></div>
+							<div class='col-xs-5 right' >
+								<p>$304.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-9 payment">
+					<div class='box-passenger col-xs-12'>
+						<div class='title-box-passenger '>
+							<div class="col-xs-12">Your personal information</div>
+						</div>
+						<div>
+							<form>
+								<div class="form-passenger">
+									<div class='col-xs-12 col-sm-4 form-group'>
+										<label for='firstName' class="control-label">First name</label>
+										<input type='text' name='' class='form-control' id='firstName'>
+									</div>
+									<div class='col-xs-12 col-sm-4 form-group'>
+										<label for='lastName' class="control-label">Last name</label>
+										<input type='text' name='' class='form-control' id='lastName'>
+									</div>
+									<div class='col-xs-12 col-sm-4 form-group'>
+											<label for='birthDatebirthDate' class="control-label">Birth Date</label>
+							                <div class='input-group date'>
+							                    <input type='text' class='form-control' id="birthDatebirthDate" >
+							                    <span class='input-group-addon'><span  class='glyphicon glyphicon-calendar'></span>
+							                    </span>
+							                </div>
+							            </div>
+								</div>
+								<div class="form-passenger">
+									<div class="col-xs-12 col-sm-4 form-group">
+										<label for='email' class="control-label">Email<span style="color: red" id="emailA"></span></label>
+										<input type='text' name='' class='form-control' id='email'>
+									</div>
+									<div class="col-xs-12 col-sm-8 form-group">
+										<!-- <input type="radio" name="sex" id="male"><label for="male">Male</label>
+										<input type="radio" name="sex" id="feMale"><label for="feMale">Female</label> -->
+										<div class="radio">
+								            <label class="col-sm-4" style="margin-bottom: 20px;">
+								                <input type="radio" name="o5" value="" checked>
+								                <span class="cr"><i class="cr-icon fa fa-circle"></i></span>
+								                <span style="font-size: 0.9em">Male</span>
+								            </label>
+								            <label class="col-sm-4" style="">
+								                <input type="radio" name="o5" value="">
+								                <span class="cr"><i class="cr-icon fa fa-circle"></i></span>
+								                <span style="font-size: 0.9em">Female</sapn>
+								            </label>
+								        </div>
+									</div>
+								</div>
+								<div class='form-passenger'>
+									<div class='col-xs-12 col-sm-4  form-group'>
+										<label for='documentType' class="control-label">Document Type</label>
+										<select class='form-control' id='documentType'>
+											<option value=""></option>
+											<option value="1">Passport</option>
+											<option value="1">Cmtnn</option>										
+										</select>
+									</div>
+
+									<div class='col-xs-12 col-sm-4  form-group'>
+										<label for='documentNumber' class="control-label">Document number</label>
+										<input type='text' name='' class='form-control' id='documentNumber'>
+									</div>
+									<div class='col-xs-12 col-sm-4 form-group'>
+										<label for='citizentship' class="control-label">Citizentship</label>
+										<select class='form-control' id='citizentship'>
+											<option value=""></option>
+											<option value="1">United Kingdom</option>
+											<option value="1">Brazin</option>
+											<option value="1">USA</option>
+										</select>
+									</div>
+								</div>								
+							</form>
+						</div>
+					</div>
+					<div class="box-passenger col-xs-12">
+						<div class='title-box-passenger '>
+							<div class="col-xs-12">Your card information</div>
+						</div>
+						<div>
+							<form>
+								<div class="form-passenger">
+									<div class="form-group col-xs-12 col-sm-6">
+										<label for='cardNumber' class="control-label">Card number</label>
+										<input type='text' name='' class='form-control' id='cardNumber' placeholder="XXXX-XXXX-XXXX-XXXX">
+									</div>
+									<div class="form-group col-xs-12 col-sm-6">
+										<label for='cardHolded' class="control-label">Card Holded Name</label>
+										<input type='text' name='' class='form-control' id='cardHolded'>
+									</div>
+								</div>
+								<div class="form-passenger">
+									
+									<div class="form-group col-xs-12 col-sm-6" >
+										<div class="row col-xs-12 col-sm-6" >
+											<label for='month' class="control-label">Expiration Date</label>
+											<select class='form-control' id="month">
+												<option value="">Month</option>
+												<option value="1">January </option>
+												<option value="1">February</option>
+												<option value="1">March</option>
+												<option value="1">April</option>
+												<option value="1">May</option>
+												<option value="1">June</option>
+												<option value="1">July</option>
+												<option value="1">August</option>
+												<option value="1">September</option>
+												<option value="1">October</option>
+												<option value="1">November</option>
+												<option value="1">December</option>
+											</select>
+										</div>
+										<div class="col-xs-12 col-sm-6">
+											<label for='year' class="control-label"></label>
+											<select class='form-control' id="year" style="margin-top: 28px">
+												<option value="" >Year</option>
+												<option value="1">2017</option>
+												<option value="1">2018</option>
+												<option value="1">2019</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group col-xs-12 col-sm-4">
+										<label for='cvv' class="control-label">CVV</label>
+											<select class='form-control' id="cvv">
+												<option value="">000</option>
+												<option value="1">001</option>
+												<option value="1">010</option>
+												<option value="1">100</option>
+											</select>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-xs-12" style="padding: 0">
+								<div class="col-xs-2 col-sm-1 " style="padding: 0">
+									<img src="img/arrow.png">
+								</div>
+								<div class="col-xs-10 ">
+									<span style="line-height: 30px;display: block;font-size: 1.3em;color: #f03c0b">Attention! Please read important information</span>
+									<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum asperiores ex ipsum sapiente eveniet. Nobis optio sit, magnam quam veritatis.</span>
+								</div>
+							</div>
+					<div class="col-xs-12" style="margin-bottom: 100px;padding: 0">
+						<div class="col-xs-12 col-sm-7" style="padding: 0">
+							<div class='checkbox'>
+					            <label style='font-size: 1.3em;padding: 0'>
+					                <input type='checkbox' value='' id="checkStep3" checked>
+					                <span class='cr'><i class='cr-icon fa fa-check'></i></span>
+					                <span style="font-size: 0.9em; color: black;">By continuing,you agree to the </span>
+					                <span style="font-size: 0.9em;color: #f03c0b">Term and Conditions</span>
+					            </label>
+					        </div>
+						</div>
+						<div class="col-xs-12 col-sm-5" style="padding: 0">
+							<button type='button' class='btn btn-lg btn-default' id="buy-tickets3">BUY TICKETS</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-10 col-md-offset-1 row step4">
+				<div class='col-xs-12 col-md-3 panel-left'>
+					<div class='summary row'><p>Summary</p></div>
+					<div class='summary-there row'>
+						<div class='row'>
+							<div class='col-xs-7 font-bold' >
+								<i class='fa fa-arrow-circle-right' aria-hidden='true'></i>
+								There
+							</div>
+							<!-- <div class='col-xs-2'></div> -->
+							<div class='col-xs-5 right'>
+								<i class='minus fa fa-minus-square-o show' aria-hidden='true'  data-toggle='collapse' data-target='#demo11'></i>
+								<i class='plus fa fa-plus-square-o' aria-hidden='true' data-toggle='collapse' data-target='#demo11'></i>
+							</div>
+						</div>
+						<div id='demo11' class='collapse in'>
+							<div class='row'>
+								<div class='col-xs-5'>
+									<span>Train<br>Name</span>
+								</div>
+								<div class='col-xs-2 mid' ></div>
+								<div class='col-xs-5 right' >
+									<p>048A<br>North Express</p>
+								</div>
+							</div>
+							<div class='row' >
+								<div class='col-xs-5'>
+									<p class='font-bold'>8:30p</p>
+									<span>Feb 12 MON</span>
+								</div>
+								<div class='col-xs-2 mid' >
+									<p>8:20</p>
+									<i class='fa fa-long-arrow-right' aria-hidden='true'></i>
+								</div>
+								<div class='col-xs-5 right' >
+									<p class='font-bold'>4:15p</p>
+									<span>Feb 13 TUE</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='summary-back row'>
+						<div class='row'>
+							<div class='col-xs-7 font-bold' >
+								<i class='fa fa-arrow-circle-left' aria-hidden='true'></i>
+								Back
+							</div>
+							<!-- <div class='col-xs-2'></div> -->
+							<div class='col-xs-5 right'>
+								<i class='minus fa fa-minus-square-o show' aria-hidden='true'  data-toggle='collapse' data-target='#demo21'></i>
+								<i class='plus fa fa-plus-square-o' aria-hidden='true' data-toggle='collapse' data-target='#demo21'></i>
+							</div>
+						</div>
+						<div id='demo21' class='collapse in'>
+							<div class='row'>
+								<div class='col-xs-5'>
+									<span>Train<br>Name</span>
+								</div>
+								<div class='col-xs-2 mid' ></div>
+								<div class='col-xs-5 right' >
+									<p>048A<br>North Express</p>
+								</div>
+							</div>
+							<div class='row' >
+								<div class='col-xs-5'>
+									<p class='font-bold'>8:30p</p>
+									<span>Feb 12 MON</span>
+								</div>
+								<div class='col-xs-2 mid' >
+									<p>8:20</p>
+									<i class='fa fa-long-arrow-right' aria-hidden='true'></i>
+								</div>
+								<div class='col-xs-5 right' >
+									<p class='font-bold'>4:15p</p>
+									<span>Feb 13 TUE</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='summary-passenger row'>
+						<div class='row'>
+							<div class='col-xs-7 font-bold' >
+								<i class='fa fa-user' aria-hidden='true'></i>
+								Passenger
+							</div>
+							<!-- <div class='col-xs-2'></div> -->
+							<div class='col-xs-5 right'>
+								<i class='minus fa fa-minus-square-o show' aria-hidden='true'  data-toggle='collapse' data-target='#demo31'></i>
+								<i class='plus fa fa-plus-square-o' aria-hidden='true' data-toggle='collapse' data-target='#demo31'></i>
+							</div>
+						</div>
+						<div id='demo3' class='collapse in'>
+							<div class='row'>
+								<div class='col-xs-5'>
+									<span>1 Adult<br>0 Children</span>
+								</div>
+								<div class='col-xs-2 mid' ></div>
+								<div class='col-xs-5 right' >
+									<p>$260<br>$0</p>
+								</div>
+							</div>
+						</div>
+					</div>		
+					<div class='summary-baggare row'>
+						<div class='row'>
+							<div class='col-xs-7 font-bold' >
+								<i class='fa fa-suitcase' aria-hidden='true'></i>
+								Baggare
+							</div>
+							<!-- <div class='col-xs-2'></div> -->
+							<div class='col-xs-5 right'>
+								<i class='minus fa fa-minus-square-o show' aria-hidden='true'  data-toggle='collapse' data-target='#demo41'></i>
+								<i class='plus fa fa-plus-square-o' aria-hidden='true' data-toggle='collapse' data-target='#demo41'></i>
+							</div>
+						</div>
+						<div id='demo41' class='collapse in'>
+							<div class='row'>
+								<div class='col-xs-5'>
+									<span>1 Excess<br>0 Animal/bird<br>0 Equipment</span>
+								</div>
+								<div class='col-xs-2 mid' ></div>
+								<div class='col-xs-5 right' >
+									<p>$44<br>$0<br>$0</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='summary-total row'>
+						<div class='row col-xs-12'>
+							<div class='col-xs-5'>
+								<p>Total</p>
+							</div>
+							<div class='col-xs-2 mid' ></div>
+							<div class='col-xs-5 right' >
+								<p>$304.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='col-xs-12 col-md-9 validation' >
+					<div class=''>
+						<div class='title-box-validation '>
+							Train
+						</div>
+						<div>
+							<div class='box-list-tickets'>
+								<div class='col-xs-2 img'>
+									<img src='img/img.png' width='100%'>
+								</div>
+								<div class='col-xs-10 col-sm-8'>
+									<div class='col-xs-12'>
+										<div class='col-xs-5 box-recent-tickets-left'>
+											<h3>8:30p</h3>
+											<span>Fed 14 SUN</span>
+											<h5>New York</h5>
+											<span>penn Station,NY</span>
+											<p></p>
+										</div>
+										<div class='col-xs-2 arrow' >
+											<p><span>07:25</span></p>
+											<span><i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>
+										</div>
+										<div class='col-xs-5 box-recent-tickets-right'>
+											<h3>2:50a</h3>
+											<span>Fed 15 SUN</span>
+											<h5>Lost Angeles</h5>
+											<span>Union Station,CA</span>
+											<!-- <p>from<span>$48</span></p> -->
+										</div>
+									</div>
+									<div class='col-xs-12'>
+										<div class='col-xs-5 box-recent-tickets-left'>
+											<h3>8:30p</h3>
+											<span>Fed 14 SUN</span>
+											<h5>New York</h5>
+											<span>penn Station,NY</span>
+											<p></p>
+										</div>
+										<div class='col-xs-2 arrow' >
+											<p><span>07:25</span></p>
+											<span><i class='fa fa-long-arrow-left' aria-hidden='true'></i></span>
+										</div>
+										<div class='col-xs-5 box-recent-tickets-right'>
+											<h3>2:50a</h3>
+											<span>Fed 15 SUN</span>
+											<h5>Lost Angeles</h5>
+											<span>Union Station,CA</span>
+											<!-- <p>from<span>$48</span></p> -->
+										</div>
+									</div>
+								</div>
+								<div class='col-xs-12 col-sm-2 change'>
+									<p><span class='cost'>$38</span><span>/person</span></p>
+									<span>
+										<i class='fa fa-wifi' aria-hidden='true'></i>
+										<i class='fa fa-moon-o' aria-hidden='true'></i>
+										<i class='fa fa-coffee' aria-hidden='true'></i>
+										<i class='fa fa-rocket' aria-hidden='true'></i>
+									</span>
+									<br>
+									<button type='button' class='btn btn-default show' id="change1">Change</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="box-validation">
+						<div class='title-box-validation '>
+							Passengers
+						</div>
+						<div class="total-info col-xs-12">
+							<div class="col-xs-12 col-sm-10 left">
+								<div class="box-total-info row">
+									<table width="100%">
+										<h4>Adult 1</h4>
+										<tr>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<th colspan="2">Name</th>
+											<td colspan="8">John Doe</td>
+											<td colspan="2"></td>
+										</tr>
+										<tr>
+											<th colspan="2">Date of Birth</th>
+											<td colspan="8">07/12/1987</td>
+											<td colspan="2"></td>
+										</tr>
+										<tr>
+											<th colspan="2">Document</th>
+											<td colspan="8">Passport of USA MD65432</td>
+											<td colspan="2"></td>
+										</tr>
+										<tr>
+											<th colspan="2">Baggage</th>
+											<td colspan="8">2 Excess<br>1 Animal/birth</td>
+											<th colspan="2">$88<br>$62</th>
+										</tr>
+									</table>
+								</div>
+								<div class="box-total-info row">
+									<table width="100%">
+										<h4>Adult 2</h4>
+										<tr>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td>f</td>
+										</tr>
+										<tr>
+											<th colspan="2">Name</th>
+											<td colspan="8">John Doe</td>
+											<td colspan="2"></td>
+										</tr>
+										<tr>
+											<th colspan="2">Date of Birth</th>
+											<td colspan="8">07/12/1987</td>
+											<td colspan="2"></td>
+										</tr>
+										<tr>
+											<th colspan="2">Document</th>
+											<td colspan="8">Passport of USA MD65432</td>
+											<td colspan="2"></td>
+										</tr>
+										<tr>
+											<th colspan="2">Baggage</th>
+											<td colspan="8">2 Excess<br>1 Animal/birth</td>
+											<th colspan="2">$88<br>$62</th>
+										</tr>
+									</table>
+								</div>
+								<div class="box-total-info row">
+									<table width="100%">
+										<h4>Kid 1</h4>
+										<tr>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<th colspan="2">Name</th>
+											<td colspan="8">Jim Doe</td>
+											<td colspan="2"></td>
+										</tr>
+										<tr>
+											<th colspan="2">Date of Birth</th>
+											<td colspan="8">07/12/2000</td>
+											<td colspan="2"></td>
+										</tr>
+										<tr>
+											<th colspan="2">Document</th>
+											<td colspan="8">Passport of USA MD65432</td>
+											<td colspan="2"></td>
+										</tr>
+										<tr>
+											<th colspan="2">Baggage</th>
+											<td colspan="8">1 Excess</td>
+											<th colspan="2">$44</th>
+										</tr>
+									</table>
+								</div>		
+							</div>
+							<div class="col-xs-12 col-sm-2 right">
+								<p>$210</p>
+								<button type='button' class='btn btn-default show' id="change2">Change</button>
+							</div>
+						</div>
+					</div>
+					<div class="box-validation">
+						<div class='title-box-validation '>
+							Payment
+						</div>
+						<div class="total-info col-xs-12">
+							<div class="col-xs-12 col-sm-10 left ">
+								<div class="box-total-info row">
+									<table width="100%">
+										<h4>Personal information</h4>
+										<tr>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<th colspan="2">Name</th>
+											<td colspan="10">John Doe</td>
+										</tr>
+										<tr>
+											<th colspan="2">Date of Birth</th>
+											<td colspan="10">07/12/1987</td>
+										</tr>
+										<tr>
+											<th colspan="2">Email</th>
+											<td colspan="10">vanduy@gmail.com</td>
+										</tr>
+										<tr>
+											<th colspan="2">Document</th>
+											<td colspan="10">Passport of USA MD357895</td>
+										</tr>
+									</table>
+								</div>
+								<div class="box-total-info row">
+									<table width="100%">
+										<h4>Card information</h4>
+										<tr>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<th colspan="2">C.Number</th>
+											<td colspan="10">6666 6666 6666 6666</td>
+										</tr>
+										<tr>
+											<th colspan="2">C.holded </th>
+											<td colspan="10">Jone Doe</td>
+										</tr>
+										<tr>
+											<th colspan="2">Expiration</th>
+											<td colspan="10">April 2020</td>
+										</tr>
+										<tr>
+											<th colspan="2">CVV</th>
+											<td colspan="10">1000</td>
+										</tr>
+									</table>
+								</div>		
+							</div>
+							<div class="col-xs-12 col-sm-2 right">
+								<button type='button' class='btn btn-default show' id="change3">Change</button>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="col-xs-4 totalCost">Total Cost<span> $999</span></div>
+						<div class="col-cs-8 button-end">
+							<button type="button" class="btn btn-default"><a href="thankyou.html">BUY TICKETS</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div id="content_6" class="container-fluid">
+		<div class="container_6 container">
+			<div class="part col-md-3 col-sm-5 col-xs-10" >
+				<div>
+					<h4>Menu</h4>
+					<p><a>Press Center</a></p>
+					<p><a>Travel News</a></p>
+					<p><a>Privacy Policy</a></p>
+					<p><a>Best Price Guarantee</a></p>
+					<p><a>About Us</a></p>
+					<p><a>Contacts</a></p>
+				</div>
+			</div>
+			<div class="part col-md-3 col-sm-6 col-xs-10" >
+				<div>
+					<h4>Contacts Us</h4>
+					<i class="fas fa-phone"></i><span style="font-size: 18px;" >+444 5533 886</span><br><br>
+					<i class="fab fa-skype"></i><span >book.your.train</span><br><br>
+					<i class="fas fa-envelope"></i><span>mail@bookyourtrain.com</span><br><br>
+					<i class="fas fa-map-marker-alt"></i><span>5138 Little Shadow Gardens,<br>&emsp;&emsp;Del Monte, Alaska,<br>&emsp;&emsp;99631-4129, US</span><br><br>
+					
+				</div>
+			</div>
+			<div class="part col-md-3 col-sm-6 col-xs-10" >
+				<div>
+					<h4>Blog Post</h4>
+					<div class="blog">
+						<div class="blog_img">
+							<img src="img/foot1.jpg">
+						</div>
+						<div class="blog_text">
+							<p style="color: gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div class="blog">
+						<div class="blog_img">
+							<img src="img/foot2.jpg">
+						</div>
+						<div class="blog_text">
+							<p style="color: gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="part col-md-3 col-sm-6 col-xs-10" >
+				<div id="subscrible">
+					<h4>Subscrible</h4>
+					<p>Be aware of</p>
+					<input type="text" placeholder="your e-mail"> <button style="background-color: #28292e; border:1px solid gray; color: gray; height: 30px; border-radius: 5px;width: 20%;">Send</button>
+					<h4>Follow Us</h4>
+					<i class="fab fa-linkedin-in"></i><i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i></i><i class="fab fa-google-plus-g"></i><i class="fab fa-youtube"></i>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div style="float: right;"><i class="far fa-copyright"></i><span style="font-weight: 600">2015 BESTWEBSOFT</span></div>
+		<div style="float:left;">
+			<img src="img/train.png" alt="train">
+
+			<span><b style="color: white">BOOK</b>YOUR<b style="color: white">TRAIN</b></span>
+		</div>
+		
+	</div>
+
+</body>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+	<script type="text/javascript">
+		$('#datepicker').datepicker({
+			format: 'dd/mm/yy',
+			startDate: '+0d'
+		});
+		$('#datepick').datepicker({
+			format: 'dd/mm/yy',
+			startDate: '+0d'
+		});
+		$('#birthDatebirthDate').datepicker({
+			format: 'dd/mm/yy',
+			startDate: '+0d'
+		});
+		$('.carousel').carousel({
+		    interval: 4000
+		});
+		$('#sund-img').click(function(){
+			var from = $('.from').val();
+			var to = $('.to').val();
+			$('.from').val(to);
+			$('.to').val(from);
+		})
+		 $(function () {
+			   var bindDatePicker = function() {
+					$('.date').datetimepicker({
+			        // format:'YYYY-MM-DD',
+			        format:'MM-DD-YYYY',
+						icons: {
+							time: 'fa fa-clock-o',
+							date: 'fa fa-calendar',
+							up: 'fa fa-arrow-up',
+							down: 'fa fa-arrow-down'
+						}
+					}).find('input:first').on('blur',function () {
+						// check if the date is correct. We can accept dd-mm-yyyy and yyyy-mm-dd.
+						// update the format if it's yyyy-mm-dd
+						var date = parseDate($(this).val());
+
+						if (! isValidDate(date)) {
+							//create date based on momentjs (we have that)
+							date = moment().format('MM-DD-YYYY');
+						}
+
+						$(this).val(date);
+					});
+				}
+			   
+			   var isValidDate = function(value, format) {
+					format = format || false;
+					// lets parse the date to the best of our knowledge
+					if (format) {
+						value = parseDate(value);
+					}
+
+					var timestamp = Date.parse(value);
+
+					return isNaN(timestamp) == false;
+			   }
+			   
+			   var parseDate = function(value) {
+					var m = value.match(/^(\d{1,2})(\/|-)?(\d{1,2})(\/|-)?(\d{4})$/);
+					if (m)
+						value = m[5] + '-' + ('00' + m[3]).slice(-2) + '-' + ('00' + m[1]).slice(-2);
+
+					return value;
+			   }
+			   
+			   bindDatePicker();
+			 });
+		 $(function(){
+		 	var x=
+		 	$('#refresh').click(function(){
+
+		 	})
+		 })
+
+		 $(function(){
+		 	// With JQuery
+			$('#ex14').slider({
+			    ticks: [0, 100, 200, 300, 400],
+			    ticks_positions: [0, 30, 60, 70, 90, 100],
+			    ticks_labels: ['$0', '$100', '$200', '$300', '$400'],
+			    ticks_snap_bounds: 30
+			});
+
+	</script>
+</html>
